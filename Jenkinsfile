@@ -14,7 +14,7 @@ pipeline {
 
         stage("Checkout from SCM"){
                 steps {
-                    git branch: 'main', credentialsId: 'github', url: 'https://github.com/mahesh-kalle/BookStore/tree/main/BookStore'
+                    git branch: 'main', credentialsId: 'github', url: 'https://github.com/mahesh-kalle/BookStore'
                 }
         }
 
